@@ -27,7 +27,7 @@
 		
 		// CHANGE THE TWO LINES BELOW
 		
-		$email_to = "operations1@allinoneemirates.com";
+		$email_to = "shamsishamz007@gmail.com";
 		
 		$email_subject = $_POST['subject']; // required
 	
@@ -35,7 +35,7 @@
 		
 		$email_from = $_POST['email']; // required
 		
-		$cc = "operations1@allinoneemirates.com";
+		// $cc = "operations1@allinoneemirates.com";
 		
 		$message = $_POST['message']; // required
 		

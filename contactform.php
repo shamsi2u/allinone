@@ -10,7 +10,7 @@ $data = json_decode($post_data);
 // echo "Message : " . $data->message;
  
 // sned an email
-$to = "shamsi@superjetgroup.com";
+$to = "shamsishamz007@gmail.com";
  
 $subject = 'Coustomer Enquiery at all in one website';
  

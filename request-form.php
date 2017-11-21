@@ -17,7 +17,7 @@
 		
 		// CHANGE THE TWO LINES BELOW
 		
-		$email_to = "operations1@allinoneemirates.com";
+		$email_to = "shamsishamz007@gmail.com";
 		
 		$email_subject = $_POST['Coustomer Request']; // required
 		

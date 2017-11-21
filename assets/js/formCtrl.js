@@ -1,12 +1,14 @@
 
-angular.module('qoute.formCtrl',[]).controller('formCtrl',function($http,$scope) {
+var app = angular.module('qoute', []);
+
+app.controller('formCtrl',function($scope, $http,$timeout) {
     /*
     * This method will be called on click event of button.
     * Here we will read the email and password value and call our PHP file.
     */
     console.log("im  worjking ");
     
-    $scope.formsubmit() = function () {
+    $scope.formsubmit = function () {
 
        
     document.getElementById("message").textContent = "";

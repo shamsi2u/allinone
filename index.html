@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-		<script src="assets/js/angular.js"></script>
-		<script src="assets/js/app.js"></script>
-		<script src="assets/js/formCtrl.js"></script>
+		
 		
 	<head>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+			<script src="assets/js/app.js"></script>
+			<script src="assets/js/formCtrl.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title>Transport</title>
@@ -29,7 +30,7 @@
 		<link rel="stylesheet" href="assets/css/responsive.css" />
 		<link href="assets/css/skin.less" rel="stylesheet/less">
 	</head>
-	<body>
+	<body ng-app="qoute">
 		<!-- Loader Starts here -->
 		<div class="loader-block">
 			<div class="loader">
@@ -366,10 +367,10 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-xs-12">
-										<div class="quote" ng-app='qoute' ng-controller='formCtrl'>
+										<div class="quote"  ng-controller='formCtrl'>
 											<span>get a free quote</span>
 										
-											<form  name="userForm">
+											<form  name="userForm" method="post">
 												<ul>
 													<!-- <li>
 														<input id="from" type="text" name="location" placeholder="From(Location)" />

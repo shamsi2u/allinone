@@ -1,7 +1,8 @@
-(function(){
+
   // creating Angular Module
   var websiteApp = angular.module('websiteApp', []);
-  var app= angular.module('quote',['qoute.formCtrl']);
+  var app = angular.module('qoute', []);
+
 
   // create angular controller and pass in $scope and $http
   websiteApp.controller('FormController',function($scope, $http,$timeout) {
@@ -62,5 +63,4 @@
 	   };
 
     });
-})
 
