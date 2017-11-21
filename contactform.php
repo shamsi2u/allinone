@@ -3,11 +3,11 @@
 $post_data = file_get_contents("php://input");
 $data = json_decode($post_data);
  
-// //Just to display the form values
-// echo "Question : " . $data->question;
-// echo "Email : " . $data->email;
-// echo "phone " 
-// echo "Message : " . $data->message;
+Just to display the form values
+ echo "Question : " . $data->question;
+ echo "Email : " . $data->email;
+ echo "phone " 
+ echo "Message : " . $data->message;
  
 // sned an email
 $to = "shamsishamz007@gmail.com";

@@ -44,7 +44,7 @@
 		  if (!data.success) {
 		  	
 		  		   		   // if not successful, bind errors to error variables
-		   $scope.errorName = data.errors.name;
+		//    $scope.errorName = data.errors.name;
 		   $scope.errorEmail = data.errors.email;
 		   $scope.errorSubject = data.errors.subject;
 		  // $scope.errorTextarea = data.errors.message;

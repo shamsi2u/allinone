@@ -11,7 +11,8 @@ app.controller('formCtrl',function($scope, $http,$timeout) {
     $scope.formsubmit = function () {
 
        
-    document.getElementById("message").textContent = "";
+    //document.getElementById("message").textContent = "";
+    //document.querySelector('message').textContent="";
     
     var request = $http({
         method: "post",
@@ -29,8 +30,9 @@ app.controller('formCtrl',function($scope, $http,$timeout) {
     });
     
     /* Check whether the HTTP Request is successful or not. */
-    request.success(function (data) {
-        document.getElementById("message").textContent = "You have login successfully with email "+data;
+     request.then(function (data) {
+        // document.getElementById("message").textContent = "You have login successfully with email "+data;
+        console.log("sucessfully posted to php")
     });
     }
     });
